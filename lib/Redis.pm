@@ -1901,7 +1901,7 @@ Add multiple sets and store the resulting set in a key (see L<http://redis.io/co
 
 =head2 zadd
 
-  $r->zadd(key, score member [score member ...])
+  $r->zadd(key, score, member [score, member ...])
 
 Add one or more members to a sorted set, or update its score if it already exists (see L<http://redis.io/commands/zadd>)
 
